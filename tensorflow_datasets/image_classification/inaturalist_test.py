@@ -21,7 +21,7 @@ from __future__ import division
 from __future__ import print_function
 
 from tensorflow_datasets import testing
-from tensorflow_datasets.image_classification import inaturalist
+from tensorflow_datasets.image_classification import inaturalist_2018
 
 """
 class INaturalist2017Test(testing.DatasetBuilderTestCase):
@@ -38,7 +38,7 @@ class INaturalist2017Test(testing.DatasetBuilderTestCase):
   }
 """
 class INaturalist2018Test(testing.DatasetBuilderTestCase):
-  DATASET_CLASS = inaturalist.INaturalist2018
+  DATASET_CLASS = inaturalist_2018.INaturalist2018
   SPLITS = {  # Expected number of examples on each split.
       "train": 4,
       "validation": 3,
