@@ -1,0 +1,14 @@
+Plantae
+Insecta
+Aves
+Actinopterygii
+Fungi
+Reptilia
+Mollusca
+Mammalia
+Animalia
+Amphibia
+Arachnida
+Chromista
+Protozoa
+Bacteria

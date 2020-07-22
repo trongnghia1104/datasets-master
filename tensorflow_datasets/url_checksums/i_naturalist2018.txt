@@ -1,0 +1,4 @@
+http://www.vision.caltech.edu/~gvanhorn/datasets/inaturalist/fgvc5_competition/train_val2018.tar.gz 127945569561 276522b02b65d98ee5168a17415b2b1ec971b035bd62959e37b80b1092130495
+http://www.vision.caltech.edu/~gvanhorn/datasets/inaturalist/fgvc5_competition/train2018.json.tar.gz 20951917 b527661480beb882813a4c8fca5ba50307b9856440a1c7bd4d160b4dcb57f9eb
+http://www.vision.caltech.edu/~gvanhorn/datasets/inaturalist/fgvc5_competition/val2018.json.tar.gz 1276686 e23c47d61d3aa2a9095090dbc49de861445d9a8144884a78222873f11f7ef43e
+http://www.vision.caltech.edu/~gvanhorn/datasets/inaturalist/fgvc5_competition/test2018.tar.gz 42093877810 cb19d5b2d755e4dc2a2396a5371a847c95b08678aa00369e61365d7f1e486706

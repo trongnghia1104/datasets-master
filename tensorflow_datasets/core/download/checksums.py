@@ -25,7 +25,7 @@ from __future__ import print_function
 import os
 from typing import Any, Dict, Iterable, List
 
-import tensorflow.compat.v2 as tf
+import tensorflow as tf
 
 from tensorflow_datasets.core import utils
 

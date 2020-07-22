@@ -23,7 +23,7 @@ from __future__ import print_function
 from tensorflow_datasets import testing
 from tensorflow_datasets.image_classification import inaturalist
 
-
+"""
 class INaturalist2017Test(testing.DatasetBuilderTestCase):
   DATASET_CLASS = inaturalist.INaturalist2017
   SPLITS = {  # Expected number of examples on each split.
@@ -35,6 +35,20 @@ class INaturalist2017Test(testing.DatasetBuilderTestCase):
       "test_images": "test2017.tar.gz",
       "trainval_annos": "train_val2017",
       "trainval_images": "train_val_images.tar.gz",
+  }
+"""
+class INaturalist2018Test(testing.DatasetBuilderTestCase):
+  DATASET_CLASS = inaturalist.INaturalist2018
+  SPLITS = {  # Expected number of examples on each split.
+      "train": 4,
+      "validation": 3,
+      "test": 2,
+  }
+  DL_EXTRACT_RESULT = {
+      "test2018": "test2018.tar.gz",
+      "train_annos": "train2018",
+      "val_annos": "val2018",
+      "train_val2018": "train_val2018.tar.gz",
   }
 
 if __name__ == "__main__":
