@@ -89,12 +89,10 @@ class INaturalist2018(tfds.core.GeneratorBasedBuilder):
                 extract_method=tfds.download.ExtractMethod.NO_EXTRACT),
         "train_annos":
             tfds.download.Resource(
-                url=urllib.parse.urljoin(_URL_2018, "train2018.json.tar.gz"),
-                extract_method=tfds.download.ExtractMethod.NO_EXTRACT),
+                url=urllib.parse.urljoin(_URL_2018, "train2018.json.tar.gz")),
         "val_annos":
             tfds.download.Resource(
-                url=urllib.parse.urljoin(_URL_2018, "val2018.json.tar.gz"),
-                extract_method=tfds.download.ExtractMethod.NO_EXTRACT),
+                url=urllib.parse.urljoin(_URL_2018, "val2018.json.tar.gz")),
         "test2018":
             tfds.download.Resource(
                 url=urllib.parse.urljoin(_URL_2018, "test2018.tar.gz"),
