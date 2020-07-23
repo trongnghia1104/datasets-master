@@ -75,7 +75,7 @@ class INaturalist2018(tfds.core.GeneratorBasedBuilder):
                 names_file=tfds.core.get_tfds_path(
                     os.path.join(
                         "image_classification",
-                        "inaturalist_supercategories_2018.txt"))),
+                        "inaturalist_supercategories.txt"))),
         }),
         supervised_keys=("image", "label"),
         homepage="https://github.com/visipedia/inat_comp/tree/master/2018",
